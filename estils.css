@@ -1,5 +1,3 @@
-
-
 /*#ultimate-heading608bb2165b923{-webkit-font-smoothing: antialiased;
     margin: 0;
     padding: 0;
@@ -138,6 +136,10 @@
     border-bottom: 10px solid #ffc711;
 }
 
+.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.forum {
+    border-bottom: 10px solid #80aee0;
+}
+
 .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a {
     text-decoration: none;
     font-size: 16px;
@@ -153,7 +155,14 @@
 
 .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a.seccion-activa {
     font-weight: bold;
+    background-color: aliceblue;
 }
+
+#menu {
+    color: blueviolet;
+}
+
+
 
 .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a {
     padding: 0;
@@ -171,6 +180,10 @@
     color: #495491;
 }
 
+.andalucia .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
+    color: #009960;
+}
+
 .ets .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
     color: #d91E5d;
 }
@@ -181,6 +194,10 @@
 
 .abus .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
     color: #f1971f;
+}
+
+.trailer .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
+    color: #824080;
 }
 
 .feminisme .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
@@ -233,3 +250,76 @@
 .sense-pels-sections .sense-pels-sections-menu li.nav-item-category.literatura-erotica a:hover {
     color: #ffc711;
 }
+
+.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.forum a:hover {
+    color: #ffc711;
+}
+
+    body {
+
+        background: url(fonsNou.jpg) ;
+        margin-left: 30mm;
+        margin-right: 20mm;
+        
+    }
+
+    
+    h1{
+        color: linear-gradient(to bottom, rgb(124, 60, 95), rgb(104, 27, 104));
+        font-size: 4rem;
+        text-align: center;
+        text-shadow: 2px 2px 10px rgb(132, 28, 158);
+        -webkit-text-stroke: 2px rgb(95, 35, 87);
+    }
+
+    h2 {
+    
+        font-family: 'Lobster';
+        color:  rgb(219, 72, 133);
+        font-size: 3rem;
+        text-align: left;
+        
+    }
+
+    h3{
+        font-family: 'Amatic SC';
+        color:  rgb(92, 10, 44);
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    .requadre {
+        background: #f7f5f5; 
+        padding: 15px; 
+        border-left: 5px solid #ff0080;
+    }
+
+    .requadre2 {
+        background:rgb(221, 163, 221); 
+        color:white; 
+        padding:15px; 
+        border:3px solid rgb(175, 109, 175); 
+        margin-top:100px; 
+        margin-bottom:100px;
+
+    }
+
+    .contenidor{
+        position: relative;
+		background-color:rgb(131, 48, 48);
+	}
+	.navLocal{
+        position: sticky;
+		left: 0px;
+        top: 0px;
+	}
+    .navContextual{
+        position: sticky;
+        right: 0px;
+        top: 0px;
+
+    }
+    .text{
+        position: absolute;
+        top: 0px;
+    }
