@@ -61,6 +61,7 @@
 
 .sense-pels-sections {
     margin-top: 14px;
+    overflow-x: auto;
 }
 
 .propostes .sense-pels-sections {
@@ -136,10 +137,6 @@
     border-bottom: 10px solid #ffc711;
 }
 
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.forum {
-    border-bottom: 10px solid #80aee0;
-}
-
 .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a {
     text-decoration: none;
     font-size: 16px;
@@ -204,6 +201,15 @@
     color: #8fba54;
 }
 
+.okclub .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
+    color: #80aee0;
+}
+
+.video .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover,
+.category-video .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
+    color: #ffc711;
+}
+
 .archive.author .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover,
 .archive.tag .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
     color: #6c6e6f;
@@ -251,9 +257,21 @@
     color: #ffc711;
 }
 
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.forum a:hover {
-    color: #ffc711;
-}
+    .propostes .navTop ul li a {color: #f1971f;}
+
+    .propostes .navTop ul li.sections .nav-icon .burger,
+    .propostes .navTop ul li.sections .nav-icon .burger:before,
+    .propostes .navTop ul li.sections .nav-icon .burger:after
+    {background: #f1971f;}
+
+.consultori .okdiario-seccion h1 {background-color: #f1971f;}
+
+    .consultori .navTop ul li a {color: #f1971f;}
+
+    .consultori .navTop ul li.sections .nav-icon .burger,
+    .consultori .navTop ul li.sections .nav-icon .burger:before,
+    .consultori .navTop ul li.sections .nav-icon .burger:after
+    {background: #f1971f;}
 
     body {
 
@@ -292,6 +310,7 @@
         background: #f7f5f5; 
         padding: 15px; 
         border-left: 5px solid #ff0080;
+        margin-bottom: 5mm;
     }
 
     .requadre2 {
@@ -300,7 +319,7 @@
         padding:15px; 
         border:3px solid rgb(175, 109, 175); 
         margin-top:100px; 
-        margin-bottom:100px;
+        margin-bottom:10mm;
 
     }
 
@@ -322,4 +341,8 @@
     .text{
         position: absolute;
         top: 0px;
+    }
+
+    .uvc-heading-spacer .image_only{
+        margin-bottom: 10mm;
     }
