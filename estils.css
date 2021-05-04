@@ -41,14 +41,7 @@
 /* BARRA SECCIONES - START */
 .sense-pels-sections {
     white-space: nowrap;
-    overflow: hidden;
     border-bottom: 1px solid #ebebeb;
-}
-
-@media (max-width: 768px) {
-    .sense-pels-sections {
-        overflow: auto;
-    }
 }
 
 .sense-pels-sections {
@@ -273,76 +266,107 @@
     .consultori .navTop ul li.sections .nav-icon .burger:after
     {background: #f1971f;}
 
-    body {
+body {
 
-        background: url(fonsNou.jpg) ;
-        margin-left: 30mm;
-        margin-right: 20mm;
-        
-    }
-
+    background: url(fonsNou.jpg) ;
+    margin-left: 10mm;
+    margin-right: 10mm;
     
-    h1{
-        color: linear-gradient(to bottom, rgb(124, 60, 95), rgb(104, 27, 104));
-        font-size: 4rem;
-        text-align: center;
-        text-shadow: 2px 2px 10px rgb(132, 28, 158);
-        -webkit-text-stroke: 2px rgb(95, 35, 87);
-    }
+}
 
-    h2 {
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    color: linear-gradient(to bottom, rgb(124, 60, 95), rgb(104, 27, 104));
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 2px 2px 10px rgb(132, 28, 158);
+    -webkit-text-stroke: 2px rgb(95, 35, 87);
+}
+
+h2 {
+
+    font-family: 'Lobster';
+    color:  rgb(219, 72, 133);
+    font-size: 3rem;
+    text-align: left;
     
-        font-family: 'Lobster';
-        color:  rgb(219, 72, 133);
-        font-size: 3rem;
-        text-align: left;
-        
-    }
+}
 
-    h3{
-        font-family: 'Amatic SC';
-        color:  rgb(92, 10, 44);
-        font-size: 2rem;
-        text-align: left;
-    }
+h3 {
+    font-family: 'Amatic SC';
+    color:  rgb(92, 10, 44);
+    font-size: 2rem;
+    text-align: left;
+}
 
-    .requadre {
-        background: #f7f5f5; 
-        padding: 15px; 
-        border-left: 5px solid #ff0080;
-        margin-bottom: 5mm;
-    }
+.titolLateral{
+    font-family: 'Amatic SC';
+    color:  rgb(92, 10, 44);
+    font-size: 5mm;
+    text-align: left;
+}
 
-    .requadre2 {
-        background:rgb(221, 163, 221); 
-        color:white; 
-        padding:15px; 
-        border:3px solid rgb(175, 109, 175); 
-        margin-top:100px; 
-        margin-bottom:10mm;
+.requadre {
+    background: #f7f5f5; 
+    padding: 15px; 
+    border-left: 5px solid #ff0080;
+    margin-bottom: 5mm;
+}
 
-    }
+.requadre2 {
+    background:rgb(221, 163, 221); 
+    color:white; 
+    padding:15px; 
+    border:3px solid rgb(175, 109, 175); 
+    margin-top:100px; 
+    margin-bottom:100px;
+}
 
-    .contenidor{
-        position: relative;
-		background-color:rgb(131, 48, 48);
-	}
-	.navLocal{
-        position: sticky;
-		left: 0px;
-        top: 0px;
-	}
-    .navContextual{
-        position: sticky;
-        right: 0px;
-        top: 0px;
+.requadreLateral {
+    background: #f7f5f5; 
+    padding: 10px; 
+    margin-right: 5mm;
+    margin-bottom: 5mm;
+    margin-left: 5mm;
+}
 
-    }
-    .text{
-        position: absolute;
-        top: 0px;
-    }
+.container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    right: 0mm;
+    left: 0mm;
+}
 
-    .uvc-heading-spacer .image_only{
-        margin-bottom: 10mm;
-    }
+.leftThing {
+    position: sticky;
+    position: -webkit-sticky;
+    align-self: flex-start;
+    left: 0mm;
+    top: 0mm;
+    width: 15%;
+    margin-right: 5mm;
+}
+
+.content {
+    width: 70%;
+    top: 0mm;
+}
+
+.rightThing {
+    width: 15%;
+    position: sticky;
+    position: -webkit-sticky;
+    align-self: flex-start;
+    right: 0mm;
+    top: 0mm;
+    margin-left: 5mm;
+}
+
+.uvc-heading-spacer .image_only{
+    margin-bottom: 10mm;
+}
