@@ -63,6 +63,7 @@
 
 .sense-pels-sections {
     margin-top: 14px;
+    overflow-x: auto;
 }
 
 .propostes .sense-pels-sections {
@@ -297,13 +298,16 @@
     body {
 
         background: url(fonsNou.jpg) ;
-        margin-left: 30mm;
-        margin-right: 20mm;
+        margin-left: 10mm;
+        margin-right: 10mm;
         
     }
 
+    ul {
+        list-style-type: none;
+    }
     
-    h1{
+    h1 {
         color: linear-gradient(to bottom, rgb(124, 60, 95), rgb(104, 27, 104));
         font-size: 4rem;
         text-align: center;
@@ -320,10 +324,17 @@
         
     }
 
-    h3{
+    h3 {
         font-family: 'Amatic SC';
         color:  rgb(92, 10, 44);
         font-size: 2rem;
+        text-align: left;
+    }
+
+    .titolLateral{
+        font-family: 'Amatic SC';
+        color:  rgb(92, 10, 44);
+        font-size: 5mm;
         text-align: left;
     }
 
@@ -331,6 +342,7 @@
         background: #f7f5f5; 
         padding: 15px; 
         border-left: 5px solid #ff0080;
+        margin-bottom: 5mm;
     }
 
     .requadre2 {
@@ -340,25 +352,44 @@
         border:3px solid rgb(175, 109, 175); 
         margin-top:100px; 
         margin-bottom:100px;
-
     }
 
-    .contenidor{
+    .requadreLateral {
+        background: #f7f5f5; 
+        padding: 10px; 
+        margin-right: 5mm;
+        margin-bottom: 5mm;
+        margin-left: 5mm;
+    }
+
+    .container {
+        height: 100%;
+        width: 100%;
         position: relative;
-		background-color:rgb(131, 48, 48);
-	}
-	.navLocal{
-        position: sticky;
-		left: 0px;
-        top: 0px;
-	}
-    .navContextual{
-        position: sticky;
-        right: 0px;
-        top: 0px;
-
+        display: flex;
+        right: 0mm;
+        left: 0mm;
     }
-    .text{
-        position: absolute;
-        top: 0px;
+
+    .leftThing {
+        position: sticky;
+        position: -webkit-sticky;
+        align-self: flex-start;
+        left: 0mm;
+        top: 0mm;
+        width: 15%;
+    }
+
+    .content {
+        width: 70%;
+        top: 0mm;
+    }
+
+    .rightThing {
+        width: 15%;
+        position: sticky;
+        position: -webkit-sticky;
+        align-self: flex-start;
+        right: 0mm;
+        top: 0mm;
     }
