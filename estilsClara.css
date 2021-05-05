@@ -1,9 +1,56 @@
 
-/* BARRA SECCIONES - START */
 
+/*#ultimate-heading608bb2165b923{-webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    word-spacing: 0;
+    direction: ltr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Raleway";
+    line-height: 24.99px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #565656;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    opacity: 1;
+    display: block;
+    transform: scaleX(1) scaleY(1);
+    transform-origin: 50% 50% 0px;
+    }*/
+  
+  /** h5{-webkit-font-smoothing: antialiased;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+    box-sizing: border-box;
+    word-spacing: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "texgyreadventorregular";
+    text-transform: uppercase;
+    color: #28262b;
+    font-size: 18px!important;
+    line-height: 1.3;
+    letter-spacing: 3px!important;
+    margin-bottom: 15px;}
+*/
+
+/* BARRA SECCIONES - START */
 .sense-pels-sections {
     white-space: nowrap;
+    overflow: hidden;
     border-bottom: 1px solid #ebebeb;
+}
+
+@media (max-width: 768px) {
+    .sense-pels-sections {
+        overflow: auto;
+    }
 }
 
 .sense-pels-sections {
@@ -16,7 +63,6 @@
 
 .sense-pels-sections {
     margin-top: 14px;
-    overflow-x: auto;
 }
 
 .propostes .sense-pels-sections {
@@ -107,14 +153,7 @@
 
 .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a.seccion-activa {
     font-weight: bold;
-    background-color: aliceblue;
-
 }
-
-#menu {
-    color: blueviolet;
-}
-
 
 .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a {
     padding: 0;
@@ -132,10 +171,6 @@
     color: #495491;
 }
 
-.andalucia .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
-    color: #009960;
-}
-
 .ets .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
     color: #d91E5d;
 }
@@ -148,21 +183,8 @@
     color: #f1971f;
 }
 
-.trailer .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
-    color: #824080;
-}
-
 .feminisme .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
     color: #8fba54;
-}
-
-.okclub .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
-    color: #80aee0;
-}
-
-.video .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover,
-.category-video .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
-    color: #ffc711;
 }
 
 .archive.author .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover,
@@ -212,35 +234,16 @@
     color: #ffc711;
 }
 
-    .propostes .navTop ul li a {color: #f1971f;}
-
-    .propostes .navTop ul li.sections .nav-icon .burger,
-    .propostes .navTop ul li.sections .nav-icon .burger:before,
-    .propostes .navTop ul li.sections .nav-icon .burger:after
-    {background: #f1971f;}
-
-.consultori .okdiario-seccion h1 {background-color: #f1971f;}
-
-    .consultori .navTop ul li a {color: #f1971f;}
-
-    .consultori .navTop ul li.sections .nav-icon .burger,
-    .consultori .navTop ul li.sections .nav-icon .burger:before,
-    .consultori .navTop ul li.sections .nav-icon .burger:after
-    {background: #f1971f;}
-
 body {
 
     background: url(fonsNou.jpg) ;
-    margin-left: 10mm;
-    margin-right: 10mm;
+    margin-left: 30mm;
+    margin-right: 20mm;
     
 }
 
-ul {
-    list-style-type: none;
-}
 
-h1 {
+h1{
     color: linear-gradient(to bottom, rgb(124, 60, 95), rgb(104, 27, 104));
     font-size: 4rem;
     text-align: center;
@@ -257,17 +260,10 @@ h2 {
     
 }
 
-h3 {
+h3{
     font-family: 'Amatic SC';
     color:  rgb(92, 10, 44);
     font-size: 2rem;
-    text-align: left;
-}
-
-.titolLateral{
-    font-family: 'Amatic SC';
-    color:  rgb(92, 10, 44);
-    font-size: 5mm;
     text-align: left;
 }
 
@@ -284,52 +280,36 @@ h3 {
     padding:15px; 
     border:3px solid rgb(175, 109, 175); 
     margin-top:100px; 
-    margin-bottom:100px;
+    margin-bottom:10mm;
+
 }
 
-.requadreLateral {
-    background: #f7f5f5; 
-    padding: 10px; 
-    margin-right: 5mm;
-    margin-bottom: 5mm;
-    margin-left: 5mm;
-}
-
-.container {
-    height: 100%;
-    width: 100%;
+.contenidor{
     position: relative;
-    display: flex;
-    right: 0mm;
-    left: 0mm;
 }
-
-.leftThing {
+.navLocal{
     position: sticky;
     position: -webkit-sticky;
     align-self: flex-start;
-    left: 0mm;
-    top: 0mm;
-    width: 15%;
-    margin-right: 5mm;
+    z-index:10;
+    left: 0;
+    top: 0;
 }
-
-.content {
-    width: 70%;
-    top: 0mm;
-}
-
-.rightThing {
-    width: 15%;
+.navContextual{
     position: sticky;
     position: -webkit-sticky;
     align-self: flex-start;
-    right: 0mm;
-    top: 0mm;
-    margin-left: 5mm;
+    z-index:10;
+    right: 0;
+    top: 0;
+
+}
+.text{
+    overflow: visible;
+    position: absolute;
+    top: 0px;
 }
 
 .uvc-heading-spacer .image_only{
     margin-bottom: 10mm;
 }
-
