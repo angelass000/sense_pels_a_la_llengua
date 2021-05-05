@@ -337,6 +337,12 @@ h3 {
 }
 
 
+  /*****
+  * Tot el que fa referència a l'estil de la barra menú superior.
+  * Navegació Global.
+  *
+  ****/
+
 .navbar .nav-item:not(:last-child) {
     margin-right: 10px;
   }
@@ -352,6 +358,7 @@ h3 {
   .dropdown-menu {
     margin-top: 0;
   }
+
 
   .navbar{
       background-color: white;
@@ -369,13 +376,15 @@ h3 {
 .navbar-custom .navbar-text {
     color: rgba(18, 132, 185, 0.8);
 }
+
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
     color: rgba(0, 17, 255, 0.5);
     font-family: 'Lobster';
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
 }
+
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
