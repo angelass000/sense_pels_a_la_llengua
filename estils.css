@@ -246,8 +246,7 @@ body {
     margin-left: 2mm;
     margin-right: 2mm;
     background-repeat: no-repeat;
-    
-    
+    margin: 2mm;
 }
 
 ul {
@@ -261,6 +260,7 @@ h1 {
     text-align: center;
     font-family: 'Lobster';
     margin: 5mm;
+
 }
 
 h2 {
@@ -270,7 +270,6 @@ h2 {
     font-size: 3rem;
     text-align: left;
     margin: 10mm;
-    
 }
 
 h3 {
@@ -280,6 +279,22 @@ h3 {
     font-size: 2rem;
     text-align: left;
     margin: 5mm;
+}
+
+.clarh3 {
+    font-family: 'Amatic SC';
+    font-weight: 700;
+    color: var(--rosaClar);
+    font-size: 2rem;
+    text-align: left;
+}
+
+.fosch3 {
+    font-family: 'Amatic SC';
+    font-weight: 700;
+    color: var(--rosaObscur);
+    font-size: 2rem;
+    text-align: left;
 }
 
 .titolLateral{
@@ -490,6 +505,7 @@ h3 {
 .content {
     width: 70%;
     top: 0mm;
+    margin-right: 2mm;
 }
 
 .rightThing {
