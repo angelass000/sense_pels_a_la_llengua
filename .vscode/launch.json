@@ -23,6 +23,12 @@
                 "file": "c:\\Users\\ClaraUni\\sense_pels_a_la_llengua\\ets.html"
             },
         {
+            "name": "julia",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "file": "${workspaceFolder}/propostes.html"
+        },
+        {
             "name": "Launch Chrome",
             "request": "launch",
             "type": "pwa-chrome",
