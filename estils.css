@@ -276,6 +276,11 @@ h3 {
     text-align: left;
 }
 
+/**
+* Requadres on ficar text
+*
+*/
+
 .requadre {
     background:white; 
     padding: 15px; 
@@ -308,6 +313,24 @@ h3 {
     color: black;
     margin: 10px;
 }
+
+.btn-primary {
+    background-color: rgb(95, 35, 87);
+    color:black;
+}
+
+.btn-secondary {
+    background-color: cornflowerblue;
+    color: black;
+    border-color: rgb(2, 25, 51);
+    border-radius: 5mm;
+}
+
+
+/**
+* Contenidors per a fer columnes dreta i esquerra: navegació local i contextual
+*
+*/
 
 .contenidor {
     height: 100%;
