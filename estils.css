@@ -230,7 +230,7 @@
 
 body {
 
-    background: url(fonsNou.jpg) ;
+    background: url(fotos/fonsNou.jpg) ;
     margin-left: 10mm;
     margin-right: 10mm;
     
@@ -274,6 +274,11 @@ h3 {
     text-align: left;
 }
 
+/**
+* Requadres on ficar text
+*
+*/
+
 .requadre {
     background: #f7f5f5; 
     padding: 15px; 
@@ -297,6 +302,24 @@ h3 {
     margin-bottom: 5mm;
     margin-left: 5mm;
 }
+
+.btn-primary {
+    background-color: rgb(95, 35, 87);
+    color:black;
+}
+
+.btn-secondary {
+    background-color: cornflowerblue;
+    color: black;
+    border-color: rgb(2, 25, 51);
+    border-radius: 5mm;
+}
+
+
+/**
+* Contenidors per a fer columnes dreta i esquerra: navegació local i contextual
+*
+*/
 
 .contenidor {
     height: 100%;
