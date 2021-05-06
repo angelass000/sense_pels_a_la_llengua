@@ -234,8 +234,9 @@
         --carn: rgba(247,233,198);  
         --rosaClar: rgb(228,124,124);
         --rosaObscur: rgb(156,52,84);
-        --verdClar: rgb(140,188,164)        ;
+        --verdClar: rgb(140,188,164);
         --verdObscur: rgb(84,108,108); 
+        --verdEnllac: rgb(26, 58, 58);
       }
 
 body {
@@ -250,6 +251,10 @@ body {
 }
 
 ul {
+    list-style-type: circle;
+}
+
+ol {
     list-style-type: circle;
 }
 
@@ -320,7 +325,31 @@ h3 {
     background:var(--verdObscur); 
     color:white; 
     padding:15px; 
+    margin-bottom: 5mm;
 }
+
+.myBox:hover {
+    background: var(--verdEnllac);
+}
+
+.tooltiptext {
+    opacity: 0;
+    transition: opacity 1s;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  }
+
+.myBox:hover .tooltiptext {
+    opacity: 1;
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  }
 
 .requadreLateral {
     background: #f7f5f5; 
