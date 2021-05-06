@@ -251,7 +251,7 @@ body {
 }
 
 ul {
-    list-style-type: circle;
+    list-style-type: none;
 }
 
 ol {
@@ -264,8 +264,7 @@ h1 {
     font-weight: 400;
     text-align: center;
     font-family: 'Lobster';
-    margin: 5mm;
-
+    margin: 10mm;
 }
 
 h2 {
@@ -360,151 +359,25 @@ h3 {
 
 .rectangleText {
     background-color: white;
-    padding: 60px;
-    width: 800px;
+    padding: 10px;
+    width: 400px;
     border: 1px solid rgba(65, 63, 63, 0.623);
     color: black;
     margin: 10px;
 }
 
-
-/*
-* Botons varis
-*
-*/
-
 .btn-primary {
-    background-color: var(--verdObscur);
-    border-color: var(--verdObscur);
+    background-color: rgb(95, 35, 87);
     color:black;
 }
 
 .btn-secondary {
-    background-color: var(--rosaClar);
+    background-color: cornflowerblue;
     color: black;
-    border-radius: 3m;
+    border-color: rgb(2, 25, 51);
+    border-radius: 5mm;
 }
 
-.btn-outline-primary {
-    border-color: var(--rosaClar);
-    color: var(--rosaClar);
-    lighting-color: var(--verdObscur);
-}
-
-.btn-outline-primary:hover {
-    background-color: var(--rosaClar);
-    border-color: var(--rosaObscur);
-    color: var(--rosaObscur);
-    /*background-image: url(fotos/sifilis_0.jpg);*/
-}
-
-.botoTemaPrincipal {
-    font-size: 7mm;
-    font-weight: 500;
-    margin: 5mm;
-    height: 30mm;
-    width: 60mm;
-    border-radius: 2mm;
-}
-
-#btnPropostes{
-    border-color: var(--rosaObscur);
-    background-color: var(--rosaClar);
-    color: white;
-    border-width: 1mm;
-}
-
-#btnPropostes:hover {
-    background-image: url(fotos/gonorrea.jpg);
-}
-
-#btnETS{
-    border-color: var(--verdObscur);
-    background-color: var(--verdClar);
-    color: white;
-    border-width: 1mm;
-}
-
-#btnETS:hover {
-    background-image: url(fotos/vph_1.jpg);
-}
-
-#btnForum{
-    border-color: rgb(141, 111, 47);
-    background-color: var(--carn);
-    color: rgb(141, 111, 47);
-    border-width: 1mm;
-}
-
-#btnForum:hover {
-    background-image: url(fotos//fff.png);
-}
-
-#btnFeminisme{
-    border-color: var(--rosaObscur);
-    background-color: var(--rosaClar);
-    color: white;
-    border-width: 1mm;
-}
-
-#btnFeminisme:hover {
-    background-image: url(fotos//fff.png);
-}
-
-#btnRelats{
-    border-color: var(--verdObscur);
-    background-color: var(--verdClar);
-    color: white;
-    border-width: 1mm;
-}
-
-#btnRelats:hover {
-    background-image: url(fotos//fff.png);
-}
-
-#btnConsultori{
-    border-color: rgb(141, 111, 47);
-    background-color: var(--carn);
-    color: rgb(141, 111, 47);
-    border-width: 1mm;
-}
-
-#btnConsultori:hover {
-    background-image: url(fotos//fff.png);
-}
-
-#btnAbus{
-    border-color: var(--rosaObscur);
-    background-color: var(--rosaClar);
-    color: white;
-    border-width: 1mm;
-}
-
-#btnAbus:hover {
-    background-image: url(fotos//fff.png);
-}
-
-#btnMenstruacio{
-    border-color: var(--verdObscur);
-    background-color: var(--verdClar);
-    color: white;
-    border-width: 1mm;
-}
-
-#btnMenstruacio:hover {
-    background-image: url(fotos//fff.png);
-}
-
-#btnProductes{
-    border-color: rgb(141, 111, 47);
-    background-color: var(--carn);
-    color: rgb(141, 111, 47);
-    border-width: 1mm;
-}
-
-#btnProductes:hover {
-    background-image: url(fotos//fff.png);
-}
 
 /**
 * Contenidors per a fer columnes dreta i esquerra: navegació local i contextual
@@ -554,7 +427,7 @@ h3 {
   /*****
   * Tot el que fa referència a l'estil de la barra menú superior.
   * Navegació Global.
-  * I altres navbar
+  *
   ****/
 
 .navbar .nav-item:not(:last-child) {
@@ -605,6 +478,3 @@ h3 {
     color: var(--rosaClar);
 }
 
-#barraPrincipal{
-    background-color: var(--rosaObscur);
-}
