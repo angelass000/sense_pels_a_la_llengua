@@ -251,7 +251,7 @@ body {
 }
 
 ul {
-    list-style-type: circle;
+    list-style-type: none;
 }
 
 ol {
@@ -264,8 +264,7 @@ h1 {
     font-weight: 400;
     text-align: center;
     font-family: 'Lobster';
-    margin: 5mm;
-
+    margin: 10mm;
 }
 
 h2 {
@@ -283,7 +282,6 @@ h3 {
     color: var(--rosaObscur);
     font-size: 2rem;
     text-align: left;
-    margin: 5mm;
 }
 
 p {
@@ -365,29 +363,22 @@ p {
 
 .rectangleText {
     background-color: white;
-    padding: 60px;
-    width: 800px;
+    padding: 10px;
+    width: 400px;
     border: 1px solid rgba(65, 63, 63, 0.623);
     color: black;
     margin: 10px;
 }
 
-
-/*
-* Botons varis
-*
-*/
-
 .btn-primary {
-    background-color: var(--verdObscur);
-    border-color: var(--verdObscur);
+    background-color: rgb(95, 35, 87);
     color:black;
 }
 
 .btn-secondary {
-    background-color: var(--rosaClar);
+    background-color: cornflowerblue;
     color: black;
-    border-radius: 3m;
+    border-radius: 3mm;
 }
 
 .btn-outline-primary {
@@ -589,7 +580,7 @@ p {
   /*****
   * Tot el que fa referència a l'estil de la barra menú superior.
   * Navegació Global.
-  * I altres navbar
+  *
   ****/
 
 .navbar .nav-item:not(:last-child) {
@@ -643,3 +634,4 @@ p {
 #barraPrincipal{
     background-color: var(--rosaObscur);
 }
+
