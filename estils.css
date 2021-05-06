@@ -286,6 +286,10 @@ h3 {
     margin: 5mm;
 }
 
+p {
+    text-align: justify;
+}
+
 .clarh3 {
     font-family: 'Amatic SC';
     font-weight: 700;
