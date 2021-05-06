@@ -243,15 +243,15 @@ body {
     /*url(fotos/madera_rosa.jpg) */
     background-color: var(--verdClar);
     background-size: cover;
-    margin-left: 40mm;
-    margin-right: 32mm;
+    margin-left: 2mm;
+    margin-right: 2mm;
     background-repeat: no-repeat;
     
     
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: circle;
 }
 
 h1 {
@@ -314,8 +314,8 @@ h3 {
 
 .rectangleText {
     background-color: white;
-    padding: 10px;
-    width: 400px;
+    padding: 60px;
+    width: 800px;
     border: 1px solid rgba(65, 63, 63, 0.623);
     color: black;
     margin: 10px;
