@@ -234,8 +234,9 @@
         --carn: rgba(247,233,198);  
         --rosaClar: rgb(228,124,124);
         --rosaObscur: rgb(156,52,84);
-        --verdClar: rgb(140,188,164)        ;
+        --verdClar: rgb(140,188,164);
         --verdObscur: rgb(84,108,108); 
+        --verdEnllac: rgb(26, 58, 58);
       }
 
 body {
@@ -251,6 +252,10 @@ body {
 
 ul {
     list-style-type: none;
+}
+
+ol {
+    list-style-type: circle;
 }
 
 h1 {
@@ -277,6 +282,10 @@ h3 {
     color: var(--rosaObscur);
     font-size: 2rem;
     text-align: left;
+}
+
+a#caca {
+    bottom: 0px;
 }
 
 .clarh3 {
@@ -318,10 +327,11 @@ h3 {
     background:var(--verdObscur); 
     color:white; 
     padding:15px; 
+    margin-bottom: 5mm;
 }
 
 .myBox:hover {
-    background: rgb(223, 91, 223);
+    background: var(--verdEnllac);
 }
 
 .tooltiptext {
@@ -471,3 +481,4 @@ h3 {
 .navbar-custom .nav-item:hover .nav-link {
     color: var(--rosaClar);
 }
+
