@@ -361,6 +361,11 @@ p {
     margin-left: 5mm;
 }
 
+.requadreLateral ul {
+    margin:0;
+    padding:0;
+}
+
 .rectangleText {
     background-color: white;
     padding: 10px;
@@ -605,6 +610,9 @@ p {
   }
 
   .nav-item{
+      display: flex;
+      align-items: center;
+      text-align: center;
       background-color: white;
       border-bottom-style: solid;
       border-width: 3mm;
@@ -633,5 +641,9 @@ p {
 
 #barraPrincipal{
     background-color: var(--rosaObscur);
+}
+
+ul.navbar-nav.ml-auto li{
+    background-color: rgb(227, 248, 241);
 }
 
