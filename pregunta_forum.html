@@ -14,63 +14,76 @@
       <body background="fonsNou.jpg" style="background-size: cover;"></body>
       <h1>Sense pèls a la llengua</h1>
 
-      <div class="sense-pels-sections">
-        <ul class="sense-pels-sections-menu">
-            <li class="nav-item-category prinpage">
-                <a href="https://okdiario.com/espana/" class="">Pàgina principal</a></li>
-            <li class="nav-item-category propostes">
-                <a href="https://okdiario.com/economia/" class="">Propostes sexuals</a></li>
-            <li class="nav-item-category ets">
-                <a href="https://okdiario.com/deportes/" class="">Malalties TS</a></li>
-            <li class="nav-item-category consultori">
-                <a href="https://okdiario.com/investigacion/" class="">Consultori</a></li>
-            <li class="nav-item-category abus">
-                <a href="https://okdiario.com/opinion/" class="">En cas d'abús...</a></li>
-            <li class="nav-item-category menstruacio">
-                <a href="https://okdiario.com/look/" class="">Menstruació</a></li>
-            <li class="nav-item-category productes">
-                <a href="https://okdiario.com/trailer/" class="">Productes</a></li>
-            <li class="nav-item-category feminisme">
-                <a href="https://okdiario.com/sociedad/" class="">Feminisme</a></li>
-            <li class="nav-item-category literatura-erotica">
-                <a href="https://okdiario.com/tv/" class="">Literatura eròtica</a></li>
-            <li class="nav-item-category forum">
-                <a href="https://okdiario.com/tv/" class="">Fòrum</a></li>
-  
-                <select name="forum_box">
-                    <option selected="yes"></option>
-                    <option>Propostes</option>
-                    <option>ETS</option>
-                    <option>En cas d'abús...</option>
-                    <option>Menstruació</option>
-                    <option>Productes</option>
-                    <option>Feminisme</option>
-                    <option>Literatura</option>
-                  
-                </select>
-        </ul> 
-    </div>
+      <nav class="navbar navbar-expand-md navbar-light bg-light navbar-custom">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item prinpage">
+                <a class="nav-link" href="principal.html">Pàgina Principal</a>
+              </li>
+              <li class="nav-item propostes">
+                <a class="nav-link" href="propostes.html">Propostes Sexuals</a>
+              </li>
+              <li class="nav-item ets">
+                <a class="nav-link" href="ets.html">Malalties TS</a>
+              </li>
+              <li class="nav-item dropdown forum">
+                <a class="nav-link dropdown-toggle" href="forum.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Fòrum
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <a class="dropdown-item" href="#">Propostes</a>
+                  <a class="dropdown-item" href="#">ETS</a>
+                  <a class="dropdown-item" href="#">En cas d'abús...</a>
+                  <a class="dropdown-item" href="#">Menstruació</a>
+                  <a class="dropdown-item" href="#">Productes</a>
+                  <a class="dropdown-item" href="#">Feminisme</a>
+                  <a class="dropdown-item" href="#">Literatura Eròtica</a>
+                </div>
+              </li>
+              <li class="nav-item consultori">
+                <a class="nav-link" href="#">Consultori</a>
+              </li>
+              <li class="nav-item abus">
+                <a class="nav-link" href="#">En cas d'abús...</a>
+              </li>
+              <li class="nav-item menstruacio">
+                <a class="nav-link" href="#">Menstruació</a>
+              </li>
+              <li class="nav-item productes">
+                <a class="nav-link" href="#">Productes</a>
+              </li>
+              <li class="nav-item feminisme">
+                <a class="nav-link" href="#">Feminisme</a>
+              </li>
+              <li class="nav-item literatura-erotica">
+                <a class="nav-link" href="#">Literatura Eròtica</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-    <div>
-      <h2>Fòrum: Malalties de Transmissió Sexual</h2>
-    </div>
+    <!--Inici secció propostes-->
 
-    <div class="container">
+    <h2>Fòrum: Malalties de Transmissió Sexual</h2>
 
-      <!--Part esquerra/navegació local-->
-      <div class="leftThing requadreLateral">
-        <h3 class="titolLateral">Vés directament...</h3>
-        <ul>
-            <li><a href="propostes.html#pregunta">Pregunta</a></li>
-            <li><a href="propostes.html#respostes">Respostes</a></li>
-            <li><a href="propostes.html#escriu_resposta">Escriu una resposta</a></li>
-        </ul>
-    </div>
+    <div class="contenidor" >
 
-    <!--Cos central de text-->
+        <!--Part esquerra/navegació local-->
+        <div class="leftThing requadreLateral">
+            <h3 class="titolLateral">Vés directament...</h3>
+            <ul>
+                <li><a href="pregunta_forum.html#Pregunta">Pregunta</a></li>
+                <li><a href="pregunta_forum.html#Respostes">Respostes</a></li>
+                <li><a href="pregunta_forum.html#Respon">Respon</a></li>
+            </ul>
+        </div>
+
+        <!--Cos central de text-->
     <div class="content">
-      <div class="requadre2" id="pregunta">
-        <h3>Pregunta</h3>
+      <div class="requadre2" id="Pregunta">
+        <h3 class="clarh3">Pregunta</h3>
 
         <h4>Berrugues!</h4>
 
@@ -81,7 +94,9 @@
       
       </div>
 
-        <div class="requadre">
+      <p></p>
+
+        <div class="requadre" id="Respostes">
 
           <h3>Respostes</h3>
 
@@ -90,7 +105,7 @@
 
             <p>Hola Clàudia, el teu problema sembla xungo... a mi em va passar que la meva exparella tenia unes berrugues també, però va acabar no sent res.</p>
             <p>Si teniu algun amic en comú intenta extreure informació per allà. Espero que et serveixi d'ajuda. Molta sort!</p>
-            <p>Escrit per: Pol</p>
+            <p><i>Escrit per: Pol</i></p>
         </div>
 
         <div>
@@ -98,51 +113,52 @@
 
           <p>Molt tòxic? Moltíssim diria jo. Deixant de banda aquest tema..., penso que hauries d'ignorar-lo i si no t'ho vol dir, doncs que no t'ho digui.</p>
           <p>Demana hora al metge i fes-te una revisió per si les mosques. Igualment mai va malament revisar que tot estigui guay no? :)</p>
-          <p>Escrit per: Paula</p>
+          <p><i>Escrit per: Paula</i></p>
         </div>
 
         <div>
           <h4>Resposta 3</h4>
 
           <p>Hey! Penso igual que la Paula. Si no t'ho vol dir, així veus quin tipus de persona és i ja ho sabràs. Millor fer la revisió i sortir de dubtes pel teu compte.</p>
-          <p>Escrit per: Pep</p>
+          <p><i>Escrit per: Pep</i></p>
         </div>
 
       </div>
 
-      <div class="requadre2">
+      <div class="requadre2" id="Respon">
         <div>
-          <h3>Vols afegir una resposta?</h3>
-
-          <p>Resposta: <input type= "text" name= "list" &lt; from>   </p>
+          <h3 class="clarh3">Vols afegir una resposta?</h3>
+          <br></br>
+          Resposta: <div contenteditable="True" class = "rectangleText"> </div>
+          <br></br>
           <p>Escrit per: <input type= "text" name= "list" &lt; from></p>
 
         </div>
       </div>
-
-      <!--Part dreta de pantalla-->
-      <div class="rightThing requadreLateral">
-        <h3 class="titolLateral">Articles que potser t'interessen</h3>
-        <ul>
-            <li>
-                <a href="#">Pregunta relacionada</a> 
-            </li>
-            <li>
-                <a href="#">Article relacionat 1</a> 
-            </li>
-            <li>
-                <a href="#">Article relacionat 2</a> 
-            </li>
-            <li>
-                <a href="#">Producte relacionat</a> 
-            </li>
-        </ul>
-    </div>
   
     </div>
 
-     <!-- <div id="ultimate-heading608bb2165b923" class="uvc-heading dfd-delim-bottom cr-animate-gen heading-config-top dfd-enable-resposive-headings animation-done" data-animate-type="transition.expandIn" data-hspacer="image_only" data-halign="center" style="text-align: center; opacity: 1; display: block; transform: scaleX(1) scaleY(1); transform-origin: 50% 50% 0px;">
-        <h5 class="widget-title">SENSE PÈLS A LA LLENGUA</h5><div class="uvc-sub-heading"><h3 class="widget-sub-title">La teva web de salut sexual de confiança.</h3>
-        -->
-    </body>
+    <div class="rightThing requadreLateral">
+        <h3 class="titolLateral">Articles relacionats</h3>
+        <ul>
+            <li><a href="pregunta_forum.html#Pregunta">Pregunta relacionada</a></li>
+            <li><a href="pregunta_forum.html#Pregunta">Article relacionat 1</a></li>
+            <li><a href="pregunta_forum.html#Pregunta">Article relacionat 2</a></li>
+            <li><a href="pregunta_forum.html#Pregunta">Article relacionat 3</a></li>
+            <li><a href="pregunta_forum.html#Pregunta">Producte relacionat</a></li>
+        </ul>
+    </div>
+  </div>
+  </div> 
+
+  <br></br>
+
+  <div style="text-align: center; opacity: 1; display: block; 
+    transform: scaleX(1) scaleY(1); transform-origin: 50% 50% 0px;">
+    <h5 class="widget-title">SENSE PÈLS A LA LLENGUA</h5><div class="uvc-sub-heading">
+    <h4 class="widget-sub-title">La teva web de salut sexual de confiança.</h4>
+
+
+</body>
+<script src="app.js"></script>
 </html>

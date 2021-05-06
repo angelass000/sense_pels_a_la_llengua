@@ -279,6 +279,10 @@ h3 {
     text-align: left;
 }
 
+p {
+    text-align: justify;
+}
+
 .clarh3 {
     font-family: 'Amatic SC';
     font-weight: 700;
