@@ -243,11 +243,10 @@ body {
     /*url(fotos/madera_rosa.jpg) */
     background-color: var(--verdClar);
     background-size: cover;
-    margin-left: 40mm;
-    margin-right: 32mm;
+    margin-left: 2mm;
+    margin-right: 2mm;
     background-repeat: no-repeat;
-    
-    
+    margin: 2mm;
 }
 
 ul {
@@ -260,6 +259,7 @@ h1 {
     font-weight: 400;
     text-align: center;
     font-family: 'Lobster';
+    margin: 10mm;
 }
 
 h2 {
@@ -268,10 +268,26 @@ h2 {
     font-weight:550;
     font-size: 3rem;
     text-align: left;
-    
+    margin: 10mm;
 }
 
 h3 {
+    font-family: 'Amatic SC';
+    font-weight: 700;
+    color: var(--rosaObscur);
+    font-size: 2rem;
+    text-align: left;
+}
+
+.clarh3 {
+    font-family: 'Amatic SC';
+    font-weight: 700;
+    color: var(--rosaClar);
+    font-size: 2rem;
+    text-align: left;
+}
+
+.fosch3 {
     font-family: 'Amatic SC';
     font-weight: 700;
     color: var(--rosaObscur);
@@ -361,6 +377,7 @@ h3 {
 .content {
     width: 70%;
     top: 0mm;
+    margin-right: 2mm;
 }
 
 .rightThing {
