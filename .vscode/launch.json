@@ -5,20 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-<<<<<<< HEAD
             "name": "AngelaOpenForum",
             "request": "launch",
             "type": "pwa-chrome",
             "file": "C:/Users/Asus/Desktop/uni_any_3/FH/sense_pels_a_la_llengua/forum.html"
         },
 
-=======
-            "request": "launch",
-            "type": "pwa-chrome",
-            "name": "(julia) Open principal",
-            "file": "c:\\Users\\julia\\Documents\\FFHH\\sensePels\\sense_pels_a_la_llengua\\principal.html"
-        },
->>>>>>> 565b2c4ff8238031fa0afe48cb46ce95dcbce53c
 
     {
         "request": "launch",

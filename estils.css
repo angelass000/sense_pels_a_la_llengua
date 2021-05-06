@@ -228,13 +228,23 @@
     .consultori .navTop ul li.sections .nav-icon .burger:after
     {background: #f1971f;}
 
+    /* Definició de la paleta de colors */
+
+    :root {
+        --carn: rgba(247,233,198);  
+        --rosaClar: rgb(228,124,124);
+        --rosaObscur: rgb(156,52,84);
+        --verdClar: rgb(140,188,164)        ;
+        --verdObscur: rgb(84,108,108); 
+      }
+
 body {
 
     /*url(fotos/madera_rosa.jpg) */
-    background-color: rgb(247, 215, 227);
+    background-color: var(--verdClar);
     background-size: cover;
-    margin-left: 10mm;
-    margin-right: 10mm;
+    margin-left: 40mm;
+    margin-right: 32mm;
     background-repeat: no-repeat;
     
     
@@ -245,7 +255,7 @@ ul {
 }
 
 h1 {
-    color: rgb(231, 104, 174);
+    color: var(--rosaClar);
     font-size: 4rem;
     font-weight: 400;
     text-align: center;
@@ -254,7 +264,7 @@ h1 {
 
 h2 {
 
-    color:  rgb(219, 72, 133);
+    color: var(--carn);
     font-weight:550;
     font-size: 3rem;
     text-align: left;
@@ -264,7 +274,7 @@ h2 {
 h3 {
     font-family: 'Amatic SC';
     font-weight: 700;
-    color:  rgb(92, 10, 44);
+    color: var(--rosaObscur);
     font-size: 2rem;
     text-align: left;
 }
@@ -282,19 +292,16 @@ h3 {
 */
 
 .requadre {
-    background:white; 
+    background: white; 
     padding: 15px; 
-    border-left: 5px solid #ff0080;
+    border-left: 5px solid var(--rosaObscur);
     margin-bottom: 5mm;
 }
 
 .requadre2 {
-    background:rgb(245, 222, 222); 
+    background:var(--verdObscur); 
     color:white; 
     padding:15px; 
-    border:3px solid rgb(201, 175, 175); 
-    margin-top:100px; 
-    margin-bottom:100px;
 }
 
 .requadreLateral {
@@ -402,18 +409,18 @@ h3 {
       background-color: white;
       border-bottom-style: solid;
       border-width: 3mm;
-      border-bottom-color: rgb(183, 247, 252);
+      border-bottom-color: var(--verdObscur);
   }
 
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: rgba(128, 0, 70, 0.8);
+    color: var(--rosaObscur);
 }
 
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: rgb(148, 22, 64);
+    color: var(--rosaObscur);
     font-family: 'Monoespaciado';
     font-size: 20px;
     font-weight: 700;
@@ -422,5 +429,5 @@ h3 {
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #dd73b4;
+    color: var(--rosaClar);
 }
