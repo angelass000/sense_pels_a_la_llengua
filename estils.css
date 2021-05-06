@@ -228,12 +228,25 @@
     .consultori .navTop ul li.sections .nav-icon .burger:after
     {background: #f1971f;}
 
+    /* Definició de la paleta de colors */
+
+    :root {
+        --carn: rgba(247,233,198);  
+        --rosaClar: rgb(228,124,124);
+        --rosaObscur: rgb(156,52,84);
+        --verdClar: rgb(140,188,164)        ;
+        --verdObscur: rgb(84,108,108); 
+      }
+
 body {
 
-    background: url(fonsNou.jpg) ;
-    margin-left: 10mm;
-    margin-right: 10mm;
-    
+    /*url(fotos/madera_rosa.jpg) */
+    background-color: var(--verdClar);
+    background-size: cover;
+    margin-left: 2mm;
+    margin-right: 2mm;
+    background-repeat: no-repeat;
+    margin: 2mm;
 }
 
 ul {
@@ -241,28 +254,43 @@ ul {
 }
 
 h1 {
-    color: linear-gradient(to bottom, rgb(124, 60, 95), rgb(104, 27, 104));
+    color: var(--rosaClar);
     font-size: 4rem;
     font-weight: 400;
     text-align: center;
-    text-shadow: 2px 2px 10px rgb(132, 28, 158);
-    -webkit-text-stroke: 2px rgb(95, 35, 87);
+    font-family: 'Lobster';
+    margin: 10mm;
 }
 
 h2 {
 
-    font-family: 'Lobster';
-    color:  rgb(219, 72, 133);
-    font-weight: 550;
+    color: var(--carn);
+    font-weight:550;
     font-size: 3rem;
     text-align: left;
-    
+    margin: 10mm;
 }
 
 h3 {
     font-family: 'Amatic SC';
     font-weight: 700;
-    color:  rgb(92, 10, 44);
+    color: var(--rosaObscur);
+    font-size: 2rem;
+    text-align: left;
+}
+
+.clarh3 {
+    font-family: 'Amatic SC';
+    font-weight: 700;
+    color: var(--rosaClar);
+    font-size: 2rem;
+    text-align: left;
+}
+
+.fosch3 {
+    font-family: 'Amatic SC';
+    font-weight: 700;
+    color: var(--rosaObscur);
     font-size: 2rem;
     text-align: left;
 }
@@ -274,20 +302,22 @@ h3 {
     text-align: left;
 }
 
+/**
+* Requadres on ficar text
+*
+*/
+
 .requadre {
-    background: #f7f5f5; 
+    background: white; 
     padding: 15px; 
-    border-left: 5px solid #ff0080;
+    border-left: 5px solid var(--rosaObscur);
     margin-bottom: 5mm;
 }
 
 .requadre2 {
-    background:rgb(221, 163, 221); 
+    background:var(--verdObscur); 
     color:white; 
     padding:15px; 
-    border:3px solid rgb(175, 109, 175); 
-    margin-top:100px; 
-    margin-bottom:100px;
 }
 
 .requadreLateral {
@@ -297,6 +327,33 @@ h3 {
     margin-bottom: 5mm;
     margin-left: 5mm;
 }
+
+.rectangleText {
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+    border: 1px solid rgba(65, 63, 63, 0.623);
+    color: black;
+    margin: 10px;
+}
+
+.btn-primary {
+    background-color: rgb(95, 35, 87);
+    color:black;
+}
+
+.btn-secondary {
+    background-color: cornflowerblue;
+    color: black;
+    border-color: rgb(2, 25, 51);
+    border-radius: 5mm;
+}
+
+
+/**
+* Contenidors per a fer columnes dreta i esquerra: navegació local i contextual
+*
+*/
 
 .contenidor {
     height: 100%;
@@ -320,6 +377,7 @@ h3 {
 .content {
     width: 70%;
     top: 0mm;
+    margin-right: 2mm;
 }
 
 .rightThing {
@@ -333,11 +391,18 @@ h3 {
 }
 
 .uvc-heading-spacer .image_only{
-    margin-bottom: 10mm;
+    margin-bottom: 0mm;
 }
 
+
+  /*****
+  * Tot el que fa referència a l'estil de la barra menú superior.
+  * Navegació Global.
+  *
+  ****/
+
 .navbar .nav-item:not(:last-child) {
-    margin-right: 35px;
+    margin-right: 10px;
   }
   
   .dropdown-toggle::after {
@@ -351,3 +416,35 @@ h3 {
   .dropdown-menu {
     margin-top: 0;
   }
+
+
+  .navbar{
+      background-color: white;
+  }
+
+  .nav-item{
+      background-color: white;
+      border-bottom-style: solid;
+      border-width: 3mm;
+      border-bottom-color: var(--verdObscur);
+  }
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: var(--rosaObscur);
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: var(--rosaObscur);
+    font-family: 'Monoespaciado';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: var(--rosaClar);
+}
