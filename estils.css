@@ -1,56 +1,9 @@
 
-
-/*#ultimate-heading608bb2165b923{-webkit-font-smoothing: antialiased;
-    margin: 0;
-    padding: 0;
-    word-spacing: 0;
-    direction: ltr;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    font-family: "Raleway";
-    line-height: 24.99px;
-    text-transform: none;
-    letter-spacing: 0px;
-    color: #565656;
-    box-sizing: border-box;
-    position: relative;
-    text-align: center;
-    opacity: 1;
-    display: block;
-    transform: scaleX(1) scaleY(1);
-    transform-origin: 50% 50% 0px;
-    }*/
-  
-  /** h5{-webkit-font-smoothing: antialiased;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    direction: ltr;
-    box-sizing: border-box;
-    word-spacing: 0;
-    font-style: normal;
-    font-weight: 600;
-    font-family: "texgyreadventorregular";
-    text-transform: uppercase;
-    color: #28262b;
-    font-size: 18px!important;
-    line-height: 1.3;
-    letter-spacing: 3px!important;
-    margin-bottom: 15px;}
-*/
-
 /* BARRA SECCIONES - START */
+
 .sense-pels-sections {
     white-space: nowrap;
-    overflow: hidden;
     border-bottom: 1px solid #ebebeb;
-}
-
-@media (max-width: 768px) {
-    .sense-pels-sections {
-        overflow: auto;
-    }
 }
 
 .sense-pels-sections {
@@ -63,6 +16,7 @@
 
 .sense-pels-sections {
     margin-top: 14px;
+    overflow-x: auto;
 }
 
 .propostes .sense-pels-sections {
@@ -153,7 +107,14 @@
 
 .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a.seccion-activa {
     font-weight: bold;
+    background-color: aliceblue;
+
 }
+
+#menu {
+    color: blueviolet;
+}
+
 
 .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a {
     padding: 0;
@@ -251,26 +212,6 @@
     color: #ffc711;
 }
 
-.ets .okdiario-seccion h1 {background-color: #f1971f;}
-
-    .ets .navTop ul li a {color: #f1971f;}
-
-    .ets .navTop ul li.sections .nav-icon .burger,
-    .ets .navTop ul li.sections .nav-icon .burger:before,
-    .ets .navTop ul li.sections .nav-icon .burger:after
-    {background: #f1971f;}
-
-.prinpage .okdiario-seccion h1 {background-color: #f1971f;}
-
-    .prinpage .navTop ul li a {color: #f1971f;}
-
-    .prinpage .navTop ul li.sections .nav-icon .burger,
-    .prinpage .navTop ul li.sections .nav-icon .burger:before,
-    .prinpage .navTop ul li.sections .nav-icon .burger:after
-    {background: #f1971f;}
-
-.propostes .okdiario-seccion h1 {background-color: #f1971f;}
-
     .propostes .navTop ul li a {color: #f1971f;}
 
     .propostes .navTop ul li.sections .nav-icon .burger,
@@ -286,3 +227,207 @@
     .consultori .navTop ul li.sections .nav-icon .burger:before,
     .consultori .navTop ul li.sections .nav-icon .burger:after
     {background: #f1971f;}
+
+    /* Definició de la paleta de colors */
+
+    :root {
+        --carn: rgba(247,233,198);  
+        --rosaClar: rgb(228,124,124);
+        --rosaObscur: rgb(156,52,84);
+        --verdClar: rgb(140,188,164)        ;
+        --verdObscur: rgb(84,108,108); 
+      }
+
+body {
+
+    /*url(fotos/madera_rosa.jpg) */
+    background-color: var(--verdClar);
+    background-size: cover;
+    margin-left: 40mm;
+    margin-right: 32mm;
+    background-repeat: no-repeat;
+    
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    color: var(--rosaClar);
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Lobster';
+}
+
+h2 {
+
+    color: var(--carn);
+    font-weight:550;
+    font-size: 3rem;
+    text-align: left;
+    
+}
+
+h3 {
+    font-family: 'Amatic SC';
+    font-weight: 700;
+    color: var(--rosaObscur);
+    font-size: 2rem;
+    text-align: left;
+}
+
+.titolLateral{
+    font-family: 'Amatic SC';
+    color:  rgb(92, 10, 44);
+    font-size: 5mm;
+    text-align: left;
+}
+
+/**
+* Requadres on ficar text
+*
+*/
+
+.requadre {
+    background: white; 
+    padding: 15px; 
+    border-left: 5px solid var(--rosaObscur);
+    margin-bottom: 5mm;
+}
+
+.requadre2 {
+    background:var(--verdObscur); 
+    color:white; 
+    padding:15px; 
+}
+
+.requadreLateral {
+    background: #f7f5f5; 
+    padding: 10px; 
+    margin-right: 5mm;
+    margin-bottom: 5mm;
+    margin-left: 5mm;
+}
+
+.rectangleText {
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+    border: 1px solid rgba(65, 63, 63, 0.623);
+    color: black;
+    margin: 10px;
+}
+
+.btn-primary {
+    background-color: rgb(95, 35, 87);
+    color:black;
+}
+
+.btn-secondary {
+    background-color: cornflowerblue;
+    color: black;
+    border-color: rgb(2, 25, 51);
+    border-radius: 5mm;
+}
+
+
+/**
+* Contenidors per a fer columnes dreta i esquerra: navegació local i contextual
+*
+*/
+
+.contenidor {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    right: 0mm;
+    left: 0mm;
+}
+
+.leftThing {
+    position: sticky;
+    position: -webkit-sticky;
+    align-self: flex-start;
+    left: 0mm;
+    top: 0mm;
+    width: 15%;
+    margin-right: 5mm;
+}
+
+.content {
+    width: 70%;
+    top: 0mm;
+}
+
+.rightThing {
+    width: 15%;
+    position: sticky;
+    position: -webkit-sticky;
+    align-self: flex-start;
+    right: 0mm;
+    top: 0mm;
+    margin-left: 5mm;
+}
+
+.uvc-heading-spacer .image_only{
+    margin-bottom: 0mm;
+}
+
+
+  /*****
+  * Tot el que fa referència a l'estil de la barra menú superior.
+  * Navegació Global.
+  *
+  ****/
+
+.navbar .nav-item:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .dropdown-toggle::after {
+     transition: transform 0.15s linear; 
+  }
+  
+  .show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+  }
+  
+  .dropdown-menu {
+    margin-top: 0;
+  }
+
+
+  .navbar{
+      background-color: white;
+  }
+
+  .nav-item{
+      background-color: white;
+      border-bottom-style: solid;
+      border-width: 3mm;
+      border-bottom-color: var(--verdObscur);
+  }
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: var(--rosaObscur);
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: var(--rosaObscur);
+    font-family: 'Monoespaciado';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: var(--rosaClar);
+}
