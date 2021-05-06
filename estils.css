@@ -416,7 +416,11 @@ h3 {
 }
 
 #btnPropostes:hover {
-    background-image: url(fotos/gonorrea.jpg);
+    background-image: url(fotos/propostes2.jpg);
+    background-position: center center;
+    background-size: 220px;
+    width: 60mm;
+    height: 30mm;
 }
 
 #btnETS{
@@ -428,6 +432,10 @@ h3 {
 
 #btnETS:hover {
     background-image: url(fotos/vph_1.jpg);
+    background-position: center center;
+    background-size: 220px;
+    width: 60mm;
+    height: 30mm;
 }
 
 #btnForum{
@@ -449,7 +457,11 @@ h3 {
 }
 
 #btnFeminisme:hover {
-    background-image: url(fotos//fff.png);
+    background-image: url(fotos//feminisme.png);
+    background-position: center center;
+    background-size: 220px;
+    width: 60mm;
+    height: 30mm;
 }
 
 #btnRelats{
@@ -460,7 +472,11 @@ h3 {
 }
 
 #btnRelats:hover {
-    background-image: url(fotos//fff.png);
+    background-image: url(fotos//relats.jpg);
+    background-position: center center;
+    background-size: 220px;
+    width: 60mm;
+    height: 30mm;
 }
 
 #btnConsultori{
@@ -482,7 +498,12 @@ h3 {
 }
 
 #btnAbus:hover {
-    background-image: url(fotos//fff.png);
+    background-image: url(fotos//noesno.jpg);
+    background-position: center center;
+    background-size: 198px;
+    width: 60mm;
+    height: 30mm;
+    color: var(--rosaObscur);
 }
 
 #btnMenstruacio{
@@ -493,7 +514,11 @@ h3 {
 }
 
 #btnMenstruacio:hover {
-    background-image: url(fotos//fff.png);
+    background-image: url(fotos//flor.jpg);
+    background-position: center center;
+    background-size: 198px;
+    width: 60mm;
+    height: 30mm;
 }
 
 #btnProductes{
@@ -504,7 +529,12 @@ h3 {
 }
 
 #btnProductes:hover {
-    background-image: url(fotos//fff.png);
+    background-image: url(fotos//platan.jfif);
+    background-position: center center;
+    
+    width: 60mm;
+    height: 30mm;
+    background-repeat: no-repeat;
 }
 
 /**
