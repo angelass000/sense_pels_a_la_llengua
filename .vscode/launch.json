@@ -5,43 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "AngelaOpenForum",
+            "name": "Launch Chrome",
             "request": "launch",
             "type": "pwa-chrome",
-            "file": "C:/Users/Asus/Desktop/uni_any_3/FH/sense_pels_a_la_llengua/forum.html"
-        },
-
-
-    {
-        "request": "launch",
-        "type": "pwa-chrome",
-        "name": "(julia) Open propostes.html",
-        "file": "c:\\Users\\julia\\Documents\\FFHH\\sensePels\\sense_pels_a_la_llengua\\propostes.html"
-        
-    },
-        {
-            "type": "pwa-chrome",
-            "request": "launch",
-            "name": "(clara) Open ets.html",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
         },
         
-    {
-        "name": "Launch desplegable",
-        "request": "launch",
-        "type": "pwa-chrome",
-        "file": "c:\\Users\\ClaraUni\\sense_pels_a_la_llengua\\prova_desplegable.html"    
-    },
-        {
-            "name": "Clara Open propostes.html",
-            "request": "launch",
-            "type": "pwa-chrome",
-            "file": "c:\\Users\\ClaraUni\\sense_pels_a_la_llengua\\propostes.html"
-        },
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Clara Open ets.html",
-            "file": "c:\\Users\\ClaraUni\\sense_pels_a_la_llengua\\ets.html"
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
