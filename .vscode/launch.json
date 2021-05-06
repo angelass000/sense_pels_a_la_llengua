@@ -5,17 +5,33 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Chrome",
-            "request": "launch",
             "type": "pwa-chrome",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
+            "request": "launch",
+            "name": "Open papi.html",
+            "file": "c:\\Users\\ClaraUni\\sense_pels_a_la_llengua\\papiloma.html"
         },
-        
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
+            "name": "Open props.html",
+            "file": "c:\\Users\\ClaraUni\\sense_pels_a_la_llengua\\propostes totes.html"
+        },
+            {
+                "type": "pwa-chrome",
+                "request": "launch",
+                "name": "Open ets.html",
+                "file": "c:\\Users\\ClaraUni\\sense_pels_a_la_llengua\\ets.html"
+            },
+        {
+            "name": "julia",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "file": "${workspaceFolder}/propostes.html"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
         }
