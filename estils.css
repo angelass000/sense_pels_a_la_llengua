@@ -234,8 +234,9 @@
         --carn: rgba(247,233,198);  
         --rosaClar: rgb(228,124,124);
         --rosaObscur: rgb(156,52,84);
-        --verdClar: rgb(140,188,164)        ;
+        --verdClar: rgb(140,188,164);
         --verdObscur: rgb(84,108,108); 
+        --verdEnllac: rgb(26, 58, 58);
       }
 
 body {
@@ -250,6 +251,10 @@ body {
 }
 
 ul {
+    list-style-type: circle;
+}
+
+ol {
     list-style-type: circle;
 }
 
@@ -324,7 +329,31 @@ p {
     background:var(--verdObscur); 
     color:white; 
     padding:15px; 
+    margin-bottom: 5mm;
 }
+
+.myBox:hover {
+    background: var(--verdEnllac);
+}
+
+.tooltiptext {
+    opacity: 0;
+    transition: opacity 1s;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  }
+
+.myBox:hover .tooltiptext {
+    opacity: 1;
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  }
 
 .requadreLateral {
     background: #f7f5f5; 
@@ -391,7 +420,11 @@ p {
 }
 
 #btnPropostes:hover {
-    background-image: url(fotos/gonorrea.jpg);
+    background-image: url(fotos/propostes2.jpg);
+    background-position: center center;
+    background-size: 220px;
+    width: 60mm;
+    height: 30mm;
 }
 
 #btnETS{
@@ -403,6 +436,10 @@ p {
 
 #btnETS:hover {
     background-image: url(fotos/vph_1.jpg);
+    background-position: center center;
+    background-size: 220px;
+    width: 60mm;
+    height: 30mm;
 }
 
 #btnForum{
@@ -424,7 +461,11 @@ p {
 }
 
 #btnFeminisme:hover {
-    background-image: url(fotos//fff.png);
+    background-image: url(fotos//feminisme.png);
+    background-position: center center;
+    background-size: 220px;
+    width: 60mm;
+    height: 30mm;
 }
 
 #btnRelats{
@@ -435,7 +476,11 @@ p {
 }
 
 #btnRelats:hover {
-    background-image: url(fotos//fff.png);
+    background-image: url(fotos//relats.jpg);
+    background-position: center center;
+    background-size: 220px;
+    width: 60mm;
+    height: 30mm;
 }
 
 #btnConsultori{
@@ -457,7 +502,12 @@ p {
 }
 
 #btnAbus:hover {
-    background-image: url(fotos//fff.png);
+    background-image: url(fotos//noesno.jpg);
+    background-position: center center;
+    background-size: 198px;
+    width: 60mm;
+    height: 30mm;
+    color: var(--rosaObscur);
 }
 
 #btnMenstruacio{
@@ -468,7 +518,11 @@ p {
 }
 
 #btnMenstruacio:hover {
-    background-image: url(fotos//fff.png);
+    background-image: url(fotos//flor.jpg);
+    background-position: center center;
+    background-size: 198px;
+    width: 60mm;
+    height: 30mm;
 }
 
 #btnProductes{
@@ -479,7 +533,12 @@ p {
 }
 
 #btnProductes:hover {
-    background-image: url(fotos//fff.png);
+    background-image: url(fotos//platan.jfif);
+    background-position: center center;
+    
+    width: 60mm;
+    height: 30mm;
+    background-repeat: no-repeat;
 }
 
 /**
