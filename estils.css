@@ -606,6 +606,8 @@ p {
 
 
   .navbar{
+      width: max-content;
+      height: 20mm;
       background-color: white;
   }
 
@@ -647,3 +649,25 @@ ul.navbar-nav.ml-auto li{
     background-color: rgb(227, 248, 241);
 }
 
+.menu_bar{
+    display: none;
+    background-color: #ebebeb;
+}
+
+.titol_s{
+    color:  rgb(92, 10, 44);
+    font-size: 5mm;
+    text-align: left;
+}
+
+@media screen and (max-width: 750px) {
+
+    .navbar {
+        display: none;
+    }
+
+    .menu_bar {
+        display: block;
+    }   
+    
+}
