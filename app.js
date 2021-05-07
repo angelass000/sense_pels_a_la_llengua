@@ -27,7 +27,7 @@ $(".myBox").click(function(){
   window.location=$(this).find("a").attr("href");
   return false;
 });
-$(".nav-item.dropdown.forum").click(function(){
+$(".enllac").click(function(){
   window.location=$(this).find("a").attr("href");
   return false;
 });
