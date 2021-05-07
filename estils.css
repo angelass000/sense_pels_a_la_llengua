@@ -556,7 +556,7 @@ p {
     position: -webkit-sticky;
     align-self: flex-start;
     left: 0mm;
-    top: 0mm;
+    top: 2mm;
     width: 15%;
     margin-right: 5mm;
 }
@@ -568,13 +568,13 @@ p {
 }
 
 .rightThing {
-    width: 15%;
+    width: 20%;
     position: sticky;
     position: -webkit-sticky;
     align-self: flex-start;
     right: 0mm;
-    top: 0mm;
-    margin-left: 5mm;
+    top: 2mm;
+    margin-left: 0mm;
 }
 
 .uvc-heading-spacer .image_only{
