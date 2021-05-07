@@ -647,3 +647,11 @@ ul.navbar-nav.ml-auto li{
     background-color: rgb(227, 248, 241);
 }
 
+ul.navbar-nav.ml-auto li.nav-item.propostes#props {
+    background-color: rgb(57, 145, 115);
+}
+
+ul.navbar-nav.ml-auto li.nav-item.propostes#ets {
+    background-color: rgb(57, 145, 115);
+}
+
