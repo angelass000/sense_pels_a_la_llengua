@@ -1,232 +1,7 @@
 
-/* BARRA SECCIONES - START */
-
-.sense-pels-sections {
-    white-space: nowrap;
-    border-bottom: 1px solid #ebebeb;
-}
-
-.sense-pels-sections {
-    border-bottom: 10px solid #333;
-}
-
-.single-videos-seo .sense-pels-sections {
-    display: none;
-}
-
-.sense-pels-sections {
-    margin-top: 14px;
-    overflow-x: auto;
-}
-
-.propostes .sense-pels-sections {
-    background-color: #f4d9c5;
-}
-
-.category-video.propostes .sense-pels-sections,
-.video.propostes .sense-pels-sections,
-.author.propostes .sense-pels-sections,
-.tag.propostes .sense-pels-sections {
-    background-color: #fff;
-}
-
-.sense-pels-sections .sense-pels-sections-menu {
-    font-size: 0;
-    text-align: center;
-    margin: 14px 0;
-    padding: 0;
-}
-
-.sense-pels-sections .sense-pels-sections-menu {
-    margin: 0;
-}
-
-.sense-pels-sections .sense-pels-sections-menu {
-    text-align: unset;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category {
-    display: inline-block;
-    text-align: center;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category {
-    background-color: #ffffff;
-    min-width: 110px;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category,
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.prinpage {
-    border-bottom: 10px solid #3ea6d1;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.propostes {
-    border-bottom: 10px solid #495491;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.ets {
-    border-bottom: 10px solid #d91E5d;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.consultori {
-    border-bottom: 10px solid #1c9587;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.abus {
-    border-bottom: 10px solid #f1971f;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.menstruacio {
-    border-bottom: 10px solid #eb88b3;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.productes {
-    border-bottom: 10px solid #824080;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.feminisme {
-    border-bottom: 10px solid #8fba54;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.literatura-erotica {
-    border-bottom: 10px solid #ffc711;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category a {
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 20px;
-    padding: 1px 10px;
-    color: #000000;
-    letter-spacing: 1.2px;
-    font-weight: 500;
-    outline: none;
-    font-family: 'amplitude-medium-condensed';
-    text-transform: uppercase;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category a.seccion-activa {
-    font-weight: bold;
-    background-color: aliceblue;
-
-}
-
 #menu {
     color: blueviolet;
 }
-
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category a {
-    padding: 0;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
-    color: #919191;
-}
-
-.prinpage .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
-    color: #3ea6d1;
-}
-
-.propostes .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
-    color: #495491;
-}
-
-.andalucia .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
-    color: #009960;
-}
-
-.ets .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
-    color: #d91E5d;
-}
-
-.consultori .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
-    color: #1c9587;
-}
-
-.abus .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
-    color: #f1971f;
-}
-
-.trailer .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
-    color: #824080;
-}
-
-.feminisme .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
-    color: #8fba54;
-}
-
-.okclub .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
-    color: #80aee0;
-}
-
-.video .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover,
-.category-video .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
-    color: #ffc711;
-}
-
-.archive.author .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover,
-.archive.tag .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a:hover {
-    color: #6c6e6f;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category a,
-.page .sense-pels-sections .sense-pels-sections-menu li.nav-item-category a {
-    font-family: 'amplitude-bold-condensed';
-    font-size: 14px;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.prinpage a:hover {
-    color: #3ea6d1;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.propostes a:hover {
-    color: #495491;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.ets a:hover {
-    color: #d91E5d;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.consultori a:hover {
-    color: #1c9587;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.abus a:hover {
-    color: #f1971f;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.menstruacio a:hover {
-    color: #eb88b3;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.productes a:hover {
-    color: #824080;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.feminisme a:hover {
-    color: #8fba54;
-}
-
-.sense-pels-sections .sense-pels-sections-menu li.nav-item-category.literatura-erotica a:hover {
-    color: #ffc711;
-}
-
-    .propostes .navTop ul li a {color: #f1971f;}
-
-    .propostes .navTop ul li.sections .nav-icon .burger,
-    .propostes .navTop ul li.sections .nav-icon .burger:before,
-    .propostes .navTop ul li.sections .nav-icon .burger:after
-    {background: #f1971f;}
-
-.consultori .okdiario-seccion h1 {background-color: #f1971f;}
-
-    .consultori .navTop ul li a {color: #f1971f;}
-
-    .consultori .navTop ul li.sections .nav-icon .burger,
-    .consultori .navTop ul li.sections .nav-icon .burger:before,
-    .consultori .navTop ul li.sections .nav-icon .burger:after
-    {background: #f1971f;}
 
     /* Definició de la paleta de colors */
 
@@ -381,7 +156,7 @@ p {
 }
 
 .btn-secondary {
-    background-color: cornflowerblue;
+    background-color: var(--rosaClar);
     color: black;
     border-radius: 3mm;
 }
@@ -608,7 +383,6 @@ p {
   .navbar#navmenu{
       display: flex;
       height: 25mm;
-      
       background-color: white;
       width: fit-content;
   }
@@ -618,8 +392,10 @@ p {
       align-items: center;
       text-align: center;
       border-bottom-style: solid;
+      margin: 0.3mm;
+      margin-right: 0;
+      margin-left: 0;
       border-width: 3mm;
-      margin-right: 10mm;
       border-bottom-color: var(--verdObscur);
   }
 
