@@ -605,20 +605,28 @@ p {
   }
 
 
-  .navbar{
-      width: max-content;
-      height: 20mm;
+  .navbar#navmenu{
+      display: flex;
+      height: 25mm;
+      
       background-color: white;
+      width: fit-content;
   }
 
   .nav-item{
       display: flex;
       align-items: center;
       text-align: center;
-      background-color: white;
       border-bottom-style: solid;
       border-width: 3mm;
+      margin-right: 10mm;
       border-bottom-color: var(--verdObscur);
+  }
+
+
+
+  .form-inline.my-2.my-lg-0 {
+      margin-bottom: 10mm;
   }
 
 /* change the brand and text color */
@@ -662,9 +670,10 @@ ul.navbar-nav.ml-auto li{
 
 @media screen and (max-width: 750px) {
 
-    .navbar {
+    nav#menufix {
         display: none;
     }
+    
 
     .menu_bar {
         display: block;
